@@ -1,0 +1,259 @@
+/* ------ Colors ------ */
+.text-color-white {
+	color: #ffffff;
+}
+.text-color-orange {
+	color: #d44503ce;
+}
+.text-color-black {
+	color: #000000;
+}
+.text-color-gray {
+	color: #888888;
+}
+
+::selection {
+  color: rgba(255,255,255,.99);
+  background: rgba(0,0,0,.99);
+}
+::-moz-selection {
+  color: rgba(255,255,255,.99);
+  background: rgba(0,0,0,.99);
+
+}
+
+
+body{
+  display: flex;
+   background-color: black;
+   background-image: url(/assets/Imagenes/fondo\ vic.png);
+   background-repeat: no-repeat; 
+   -webkit-background-size: cover;
+   -moz-background-size: cover;
+   -o-background-size: cover;
+    background-size: cover;
+   
+   -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    font-smooth: antialiased;
+    text-rendering: optimizeLegibility;
+    padding: 0;
+    margin: 0;
+    font-size: calc(1em + 1vw);
+    font-family: 'montserrat';
+    font-weight:bolder;
+}
+@media screen and (max-width: 1080px) {
+  body {
+    background-image: none;
+  }
+}
+
+.max-width{
+   max-width: 86%;
+}
+
+
+
+
+
+
+.vertical-center{
+ 
+   position: absolute;
+   height: 100%;
+  display: flex;
+  align-items: center;
+  left: 12%;
+  bottom: 10%;
+ 
+}
+
+
+
+
+h1{
+   font-size: 13rem;
+}
+
+.text-color{
+   position: relative;
+   display: block;
+   color: brown;
+   margin-bottom: 1rem;
+
+}
+
+.text-color.soy{
+   color: azure;
+}
+
+.hide-text-block {
+	position: relative;
+	display: block;
+	overflow: hidden;
+}
+
+
+
+.bg-photo{
+
+   background-image: url(../assets/Imagenes/vic.png);
+   z-index: -9;
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 28%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    
+    
+    -moz-background-size: cover;
+    -o-background-size: cover;
+     background-size: cover;
+    
+    -webkit-animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);
+    -moz-animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);
+    animation:bg-photo 1.2s cubic-bezier(.5, .6, .6, 1);	
+    -webkit-animation-fill-mode:backwards;
+    -moz-animation-fill-mode:backwards;
+    animation-fill-mode:backwards;
+    
+   
+   
+  
+  
+ 
+}
+.footer{
+   background-color: blueviolet;
+
+}
+
+
+
+/*Tablet*/
+@media (min-width: 768px) {
+
+/* Menú */
+
+/*title*/
+
+/*Skills*/
+
+/*Hobbies*/
+
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+}
+
+/*Mobile*/
+@media (min-width: 425px) {
+
+/*Menu*/
+
+/*Titulo*/
+
+/*Sección sobre mi*/
+
+/*Skills*/
+
+/*Hobbies*/
+ 
+/*Formación Académica*/
+
+/*Experiencia Profesional*/
+
+ /*Contacto*/
+
+/*Footer*/
+}
+
+
+.label-hello:after{
+   content:"Hola.";
+}
+.label-hello:hover:after{
+  content:"Sobre mi";
+}
+.label-iam:after{
+   content:"Soy";
+}
+.label-iam:hover:after{
+  content:"Porfolio";
+}
+.label-victor:after{
+   content:"Victor";
+}
+.label-victor:hover:after{
+  content:"Contacto";
+}
+.label-error:after{
+  content:"Oops!";
+}
+.label-error:hover:after{
+  content:"Home";
+}
+
+.animate {
+  -webkit-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -moz-animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  animation:animate .6s cubic-bezier(0.2, 0.6, 0.2, 1);
+  -webkit-animation-fill-mode:backwards;
+  -moz-animation-fill-mode:backwards;
+  animation-fill-mode:backwards;
+}
+
+
+@-webkit-keyframes animate {
+  0% {opacity: 0;-webkit-transform: translateY(100%);}
+  100% {opacity: 1;-webkit-transform: translateY(0%);}	
+}
+
+@keyframes animate {
+  0% {opacity: 0;transform: translateY(30vh);} /* WORK ON THISSS! */
+/* 	0% {transform: translateY(100%);} */
+  100% {opacity: 1;transform: translateY(0%);}	
+}
+
+/* ------ Delays ------ */
+.delay02 { -webkit-animation-delay: .2s; animation-delay: .2s;}
+.delay04 { -webkit-animation-delay: .4s; animation-delay: .4s;}
+.delay06 { -webkit-animation-delay: .6s; animation-delay: .6s;}
+.delay08 { -webkit-animation-delay: .8s; animation-delay: .8s;}
+.delay10 { -webkit-animation-delay: 1s; animation-delay: 1s;}
+.delay12 { -webkit-animation-delay: 1.2s; animation-delay: 1.2s;}
+
+/* ------ Links ------ */
+a, a:after, a:visited {
+	text-decoration:dotted;
+	cursor: pointer;
+	color: #000000;	
+}
+
+
+a.text-color-white, a.text-color-white:after, a.text-color-white:visited {
+	color: #ffffff;	
+}
+
+a.text-color-red, a.text-color-red:after, a.text-color-red:visited {
+	color: #d44503ce;
+}
+
+/* ------ Hover states ------ */
+.on-hover-40, .on-hover--40 {
+	transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+}
+.on-hover-40:hover {
+	margin-left: 40px;
+	transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);	
+}
+.on-hover--40:hover {
+	margin-left: -40px;
+	transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);	
+}
+
+
