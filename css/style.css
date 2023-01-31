@@ -477,7 +477,7 @@ video {
 	right: 0; 
 	bottom: 0; 
 	left: 27%;
-	background-image: url(/assets/Imagenes/vic.png);
+	background-image: url(../assets/Imagenes/vic.png);
 	background-repeat: no-repeat; 
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
