@@ -671,12 +671,17 @@ video {
 .link_box{
 	display: flex;
 	justify-content: space-between;
-
 }
 
+@media screen and (max-width: 767px) {
+	.link_box {	
+		flex-wrap: wrap;
+	}
+}
 .link_line{
 	justify-content: space-between;
 	padding: 1rem;
+
 }
 
 .img_link{
