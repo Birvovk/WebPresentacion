@@ -336,6 +336,7 @@ video {
 			.logo-inner {
 				top: 5%;
 				left: 75%;
+				
 			}
 		}
 .label-logo:after { 
@@ -350,6 +351,7 @@ video {
 		@media screen and (max-width: 767px) {
 			.label-logo:hover:after{
 				content:"Victor.";
+				
 			}
 		}
 .label-logo{
@@ -529,9 +531,11 @@ video {
 @media screen and (max-width: 767px) {
 	.hide-web {
 		display: none;
+		
 	}
 	.toggle-mobile-second {
 		display: none;
+		font-size: 2.5rem;
 	}
 	.mobile-tap-area {
 		background: transparent;

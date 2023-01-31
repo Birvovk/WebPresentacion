@@ -336,7 +336,7 @@ video {
 		}
 .label-logo:after { 
 	font-family:"Semibold";
-	font-size: 25px;
+	font-size: 0.8rem;
     content:"Victor.";
 }
 .label-logo:hover:after{
@@ -346,6 +346,7 @@ video {
 		@media screen and (max-width: 767px) {
 			.label-logo:hover:after{
 				content:"Victor.";
+				font-size: 1rem;
 			}
 		}
 .label-logo{
@@ -824,3 +825,4 @@ max-width: 3rem;
 				height: 52vh;
 			}
 		}
+	}
