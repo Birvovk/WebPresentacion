@@ -283,6 +283,19 @@ a.text-color-red, a.text-color-red:after, a.text-color-red:visited {
 			}	
 		}
 
+
+.on-hover-zoom{
+	transition: all .4s cubic-bezier(0.2, 0.6, 0.2, 1);
+
+}	
+
+.on-hover-zoom:hover{
+transform: scale(1.5);
+transition: all .2s cubic-bezier(0.2, 0.6, 0.2, 1);
+
+}
+
+
 /* ------ Media ------ */
 img {
     max-width: 100%;
