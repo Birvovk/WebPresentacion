@@ -258,8 +258,8 @@ a.text-color-white, a.text-color-white:after, a.text-color-white:visited {
 	color: #dfdfdf;	
 }
 
-a.text-color-red, a.text-color-red:after, a.text-color-red:visited {
-	color: #ea0f1e;
+a.text-color-orange, a.text-color-orange:after, a.text-color-orange:visited {
+	color: #d44503ce;
 }
 
 /* ------ Hover states ------ */
